@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+## An invincible AI Agent
 
-You can use the [editor on GitHub](https://github.com/t3rmit4nk/TicTacToeAIAgent/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<img src="https://t3rmit4nk.github.io/TicTacToeAIAgent/TicTacToeAI.png" width="300" height="auto" />
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I made this agent using the cicle:
+* Plan
+* Execute
+* Percept
 
-### Markdown
+This type of games with an enemy are more complicated than the other and it similar to real problems.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+To resolve this kind of problems the important think is to manage them like a searching problems where:
 
-```markdown
-Syntax highlighted code block
+* States: are the configuration of the game
+* Player(s): witch player should play in the state s
+* Result(s,a): the result state after an action
+* Terminal-Test(s): determ if the game is ended
+* Utility(s,p): utility function to evaluate che ending states of the game for the user p
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### Two tipes of algorithm solve this problem
 
-1. Numbered
-2. List
+* Min-Max algorithm
+* Alpha-Beta algorithm
 
-**Bold** and _Italic_ and `Code` text
+Both are implemented in the code.
 
-[Link](url) and ![Image](src)
-```
+## Min-Max
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Minimax.svg/1920px-Minimax.svg.png" widht="400" height="auto">
 
-### Jekyll Themes
+It's very usefull for simpler games, it generate all the possible configuration for the current state, choosing che action that maximaze you probably of victory and minimize the victory of the enemy. If you want to read more [MinMax](https://en.wikipedia.org/wiki/Minimax)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/t3rmit4nk/TicTacToeAIAgent/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Alpha-beta
 
-### Support or Contact
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/AB_pruning.svg/1920px-AB_pruning.svg.png" widht="400" height="auto">
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+It's similar to Min-Max algorithm but it take less time and space beacause it didn't generate all the possible permutations but it cut the leaves of the permutation tree visiting a minor number of state so it stops before on an good action. If you want to read more [AlphaBeta](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning)
