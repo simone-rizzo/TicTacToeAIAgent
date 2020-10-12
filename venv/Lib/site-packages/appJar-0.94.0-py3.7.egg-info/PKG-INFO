@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: appJar
+Version: 0.94.0
+Summary: An easy-to-use, feature-rich GUI wrapper for tKinter. Designed specifically for use in the classroom, but powerful enough to be used anywhere.
+Home-page: http://appJar.info
+Author: Richard Jarvis
+Author-email: info@appjar.info
+License: Apache 2.0
+Description: # appJar
+        Simple tKinter GUIs in Python.
+        
+Keywords: python,gui,tkinter,appJar,interface
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Education
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
