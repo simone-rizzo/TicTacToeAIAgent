@@ -1,6 +1,6 @@
 ## An invincible AI Agent
 
-<img src="https://t3rmit4nk.github.io/TicTacToeAIAgent/TicTacToeAI.png" width="300" height="auto" />
+<img src="https://simone-rizzo.github.io/TicTacToeAIAgent/TicTacToeAI.png" width="300" height="auto" />
 
 I made this agent using the cycle:
 * Plan
@@ -27,7 +27,7 @@ Both are implemented in the code.
 
 ## Min-Max
 
-<img src="https://t3rmit4nk.github.io/TicTacToeAIAgent/minMax.png" widht="400" height="auto">
+<img src="https://simone-rizzo.github.io/TicTacToeAIAgent/minMax.png" widht="400" height="auto">
 
 It's very useful for simpler games, it generate all the possible configuration for the current state. Choosing the action that maximize your chance of victory and minimize the enemy one. If you want to read more [MinMax](https://en.wikipedia.org/wiki/Minimax).
 
