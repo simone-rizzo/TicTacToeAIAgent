@@ -27,7 +27,7 @@ Both are implemented in the code.
 
 ## Min-Max
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Minimax.svg/1920px-Minimax.svg.png" widht="400" height="auto">
+<img src="https://t3rmit4nk.github.io/TicTacToeAIAgent/minMax.png" widht="400" height="auto">
 
 It's very usefull for simpler games, it generate all the possible configuration for the current state, choosing che action that maximaze you probably of victory and minimize the victory of the enemy. If you want to read more [MinMax](https://en.wikipedia.org/wiki/Minimax)
 
